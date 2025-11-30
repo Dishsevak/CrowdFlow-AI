@@ -1,12 +1,111 @@
-# React + Vite
+CrowdFlow – AI-Powered Real-Time Crowd Density Monitoring System 👥📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CrowdFlow is an AI-driven crowd monitoring system that detects, analyzes, and visualizes real-time crowd density using a live camera feed or uploaded video.
+It helps users understand how crowded a place is by classifying the area into Low, Moderate, or High crowd levels — useful for events, public places, college festivals, malls, exhibitions, and smart-city projects.
 
-Currently, two official plugins are available:
+🚀 Features
+📸 Real-Time Crowd Detection
+Uses computer vision to count people and estimate density.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧠 AI Classification (Low / Medium / High)
+Automatically categorizes crowd levels using a trained model.
 
-## Expanding the ESLint configuration
+🎛️ Interactive User Dashboard
+Clean UI to display live status with colors & animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Map-Based or Section-Based Visualization
+Users can select a zone/area to check crowd condition.
+
+📎 Upload Video Option
+If no webcam, upload a clip to analyze crowd.
+
+⚡ Fast & Lightweight Frontend (React + Vite)
+Smooth performance with modern design.
+
+🛠️ Tech Stack
+Component	Technology
+Frontend	React.js, Vite, TailwindCSS
+Backend (optional)	Flask / Node.js
+AI Model	OpenCV, TensorFlow / YOLO
+Tools	VS Code, GitHub
+📂 Project Structure
+CrowdFlow/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── assets/
+│── index.html
+│── package.json
+│── vite.config.js
+│── README.md
+
+▶️ How to Run the Project
+1. Install dependencies
+npm install
+
+2. Start development server
+npm run dev
+
+
+Project will start at:
+👉 http://localhost:5173
+
+🧪 How Crowd Detection Works
+
+Video frame is captured
+
+People detection model processes the frame
+
+Head/Body bounding boxes are counted
+
+Density = total individuals in frame
+
+Category assigned:
+
+0–5 → Low
+
+6–15 → Medium
+
+16+ → High
+
+🎯 Use Cases
+
+Event management & monitoring
+
+Campus / college crowd control
+
+Shopping malls
+
+Stadiums & concerts
+
+Smart city crowd analytics
+
+Safety surveillance
+
+Queue monitoring
+
+Public-space management
+
+🖼️ Screenshots
+
+<img width="1281" height="661" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/b9f88077-9dc3-4464-b041-09ab85204082" />
+
+
+🏆 Project Motivation
+
+CrowdFlow was developed to help create safer and smarter public environments by giving real-time visibility of crowd density.
+The aim is to support:
+
+safety monitoring
+
+better decision making
+
+efficient crowd management
+
+👨‍💻 Developer
+Dishant Sevak
+
+B.Tech CSE (Cybersecurity)
+AI • Cybersecurity • Ethical Hacking • Computer Vision Projects
