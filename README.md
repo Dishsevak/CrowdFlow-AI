@@ -109,12 +109,15 @@ Queue monitoring
 
 Public-space management
 
-🖼️ Screenshots
-<img width="271" height="250" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/2894556c-efbd-4c10-afe7-ea8036898781" />
 
-<img width="271" height="250" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/b9f88077-9dc3-4464-b041-09ab85204082" />
-<img width="271" height="250" alt="Screenshot (627)" src="https://github.com/user-attachments/assets/33093068-dd34-42b8-98f2-22cbc02da160" />
-<img width="271" height="250" alt="Screenshot (629)" src="https://github.com/user-attachments/assets/6ebea72a-eca2-4849-8b78-c5cb0c83697d" />
+
+
+🖼️ Screenshots
+
+<img width="281" height="280" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/2894556c-efbd-4c10-afe7-ea8036898781" />
+<img width="281" height="280" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/b9f88077-9dc3-4464-b041-09ab85204082" />
+<img width="281" height="280" alt="Screenshot (627)" src="https://github.com/user-attachments/assets/33093068-dd34-42b8-98f2-22cbc02da160" />
+<img width="281" height="280" alt="Screenshot (629)" src="https://github.com/user-attachments/assets/6ebea72a-eca2-4849-8b78-c5cb0c83697d" />
 
 
 
